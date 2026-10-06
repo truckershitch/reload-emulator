@@ -10,7 +10,7 @@
 
 Grab a UF2 file from the releases page and the Total Replay image from archive.org.
 
-Put `Total Replay v5.2.hdv` (use exactly that filename) in the top directory of an SD card.
+Put `Replay.hdv` (use exactly that filename) in the top directory of an SD card.
 
 Copy the Reload Emulator UF2 file to your Fruit Jam's RP2350 drive.
 

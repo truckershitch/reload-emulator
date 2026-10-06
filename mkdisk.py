@@ -72,9 +72,12 @@ includes = []
 do_dsk("prodos", "https://archive.org/download/ProDOS_2_4_1/ProDOS_2_4_1.dsk", "sha1", "88d0d66867e607d6ee1117f61b83f8fe37d29f69", False) ## !!
 do_dsk("moon_patrol", "https://archive.org/download/Moon_Patrol/Moon_Patrol.dsk", "sha1", "edd50462f044fa416d19bdc43f61ab7b881de067", False)
 do_dsk("oregon_trail1", "https://archive.org/download/Oregon_Trail_Disk_1_of_2/Oregon_Trail_Disk_1_of_2.dsk", "sha1", "fb0c887c7902106a72327f9797cdd14a254e3228", False)
-do_dsk("reader_rabbit", "https://archive.org/download/ReaderRabbit11Ivyrea/Reader%20Rabbit.dsk", "sha1", "f8061c96227ccb6d230b76981f52533f74a3068c", False)
+#do_dsk("reader_rabbit", "https://archive.org/download/ReaderRabbit11Ivyrea/Reader%20Rabbit.dsk", "sha1", "f8061c96227ccb6d230b76981f52533f74a3068c", False)
+do_dsk("olympic_decathalon", "https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/games/sports/olympic_decathlon/OlympicDecathlon%20%28Black%20Bag%20crack%29.dsk", "sha1", "ff39a1e2b3b587de9853efaaaa9f37d4fe763b34", False)
 do_dsk("kraken", "https://archive.org/download/kraken_a_deep_sea_quest_apple_ii_1989/playable.dsk", "sha1", "80ea82becdd6c948b3810f34c1614eee396ee68c", False)
-do_dsk("zork", "https://archive.org/download/a2_Zork_I_The_Great_Underground_Empire_1980_Infocom_PASCAL/Zork_I_The_Great_Underground_Empire_1980_Infocom_PASCAL.dsk", "sha1", "088d970ddcc97ed0fac4ce661b784533b9440b49", False)
+do_dsk("zork_1", "https://archive.org/download/a2_Zork_I_The_Great_Underground_Empire_1980_Infocom_PASCAL/Zork_I_The_Great_Underground_Empire_1980_Infocom_PASCAL.dsk", "sha1", "088d970ddcc97ed0fac4ce661b784533b9440b49", False)
+do_dsk("zork_2", "https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/games/adventure/infocom/zork_2/Zork%20II%20r48-840904.dsk", "sha1", "2530d5ba37e52ddfab4a0a50ee9512e81ec6a330", False)
+do_dsk("zork_3", "https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/games/adventure/infocom/zork_3/Zork%20III%20r17-840727.dsk", "sha1", "33cfbff1e4cd30061cd7abae7bc8573d5a6a9a67", False)
 # do_dsk("", "", "sha1", "", False)
 
 
@@ -96,4 +99,4 @@ with open("src/images/apple2_images.h", "w") as f:
         print(f"    (uint8_t*){n},", file=f)
     print("};", file=f)
 
-    print("""uint8_t* apple2_po_images[] = {}; uint32_t apple2_po_image_sizes[] = {}; char* apple2_msc_images[] = {"Total Replay v5.2.hdv"};""", file=f)
+    print("""uint8_t* apple2_po_images[] = {}; uint32_t apple2_po_image_sizes[] = {}; char* apple2_msc_images[] = {"Replay.hdv"};""", file=f)
