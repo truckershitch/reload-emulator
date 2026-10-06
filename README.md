@@ -21,3 +21,13 @@ Turn it on & play!
 ## Requirements & Building from source
 
 Refer to the github actions files for the steps to build reload-emulator.
+
+## Images included
+  - Prodos 
+  - Lode Runner 
+  - Oregon Trail 1 
+  - Olympic Decathalon 
+  - Kraken 
+  - Zork 1 
+  - Zork 2 
+  - Zork 3
